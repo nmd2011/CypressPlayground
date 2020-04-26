@@ -32,3 +32,10 @@ Cypress.Commands.add('login', (username, password) => {
     cy.contains('Sign in').click();
 
 })
+
+Cypress.Commands.add('loginMercury', (username, password) => {
+    cy.get('input[name="userName"]').type('tgqa');
+    cy.get('input[name="password"]').type('Pass1234!');
+    cy.get('input[name="login"]').click();
+
+})

@@ -31,3 +31,13 @@ describe('Create a new user', () => {
         cy.contains('Thank you for registering. You may now ');
     });
 });
+
+describe('Login to the application after creating account', () => {
+    it('Should login', () => {
+        cy.visit('http://newtours.demoaut.com/mercurysignon.php')
+        cy.loginMercury();
+        cy.get('img[src="/images/masts/mast_flightfinder.gif"]')
+            .should('be.visible')
+        
+    });
+});
