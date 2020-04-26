@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "cy:run-dashboard": "cypress run --record --key bf3fc1ef-7eb7-40a5-8fbb-ac87d6eee4c3"
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run-dashboard": "cypress run --record --key bf3fc1ef-7eb7-40a5-8fbb-ac87d6eee4c3",
+    "cy:run:chrome-dashboard": "cypress run --record --key bf3fc1ef-7eb7-40a5-8fbb-ac87d6eee4c3",
+    "cy:run:firefox-dashboard": "cypress run --record --key bf3fc1ef-7eb7-40a5-8fbb-ac87d6eee4c3"
   },
   "repository": {
     "type": "git",
