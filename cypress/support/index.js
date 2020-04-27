@@ -19,4 +19,5 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
-require('cypress-dark');
+//require('cypress-dark');
+require('cypress-dark/src/halloween')  // comment this out and uncomment cypress-dark to reverse
