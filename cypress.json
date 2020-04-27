@@ -1,4 +1,6 @@
 {
-  "video":true,
-  "projectId": "wprbyn"
+  "video":false,
+  "projectId": "wprbyn",
+  "theme": "dark",
+  "darkMediaQuery": true
 }
