@@ -1,4 +1,4 @@
-describe('Create a new user', () => {
+describe('Create a new user2', () => {
     before(function() {
         cy.visit('http://newtours.demoaut.com/')
         cy.url().should('contain', 'http://newtours.demoaut.com/')
