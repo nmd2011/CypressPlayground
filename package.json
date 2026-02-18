@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/nmd2011/CypressPlayground#readme",
   "dependencies": {
-    "cypress": "^4.4.1",
+    "cypress": "^14.5.2",
     "prettier": "^2.0.5"
   },
   "devDependencies": {
